@@ -557,7 +557,7 @@ Code Formatters
 
 ## Regular Expressions
 
-* Pythex [https://pythex.org/] - An online tool for testing regular expressions.
+* [Pythex](https://pythex.org/) - An online tool for testing regular expressions.
 
 ## RESTful API
 
