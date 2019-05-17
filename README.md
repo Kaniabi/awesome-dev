@@ -67,6 +67,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
     - [Processes](#processes)
     - [Queue](#queue)
     - [Recommender Systems](#recommender-systems)
+    - [Regular Expressions](#regular-expressions)
     - [RESTful API](#restful-api)
     - [Robotics](#robotics)
     - [RPC Servers](#rpc-servers)
@@ -553,6 +554,10 @@ Code Formatters
 
 *Libraries for building recommender systems.*
 
+
+## Regular Expressions
+
+* Pythex [https://pythex.org/] - An online tool for testing regular expressions.
 
 ## RESTful API
 
