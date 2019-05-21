@@ -1,4 +1,4 @@
-# Awesome Python [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Development [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/kaniabi/awesome)
 
 A curated list of awesome Python frameworks, libraries, software and resources.
 
@@ -79,6 +79,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
     - [Static Site Generator](#static-site-generator)
     - [Tagging](#tagging)
     - [Template Engine](#template-engine)
+    - [Terminal](#terminal)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
     - [Third-party APIs](#third-party-apis)
@@ -638,6 +639,9 @@ Code Formatters
 
 * [Jinja2](https://github.com/pallets/jinja) - A modern and designer friendly templating language.
 
+## Terminal
+
+* [Hyper](https://hyper.is/) - A multiplatform terminal build with Web technologies. Very easy to configure.
 
 ## Testing
 
