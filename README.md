@@ -642,6 +642,8 @@ Code Formatters
 ## Terminal
 
 * [Hyper](https://hyper.is/) - A multiplatform terminal build with Web technologies. Very easy to configure.
+* [Zsh](https://www.zsh.org/) - My shell of choice.
+    * [Oh-My-Zsh](https://ohmyz.sh/) - A lot of plugins for ZSH.
 
 ## Testing
 
