@@ -1,4 +1,4 @@
-# Awesome Development [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/kaniabi/awesome)
+# Awesome Development [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/kaniabi/awesome-dev)
 
 A curated list of awesome Python frameworks, libraries, software and resources.
 
