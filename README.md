@@ -1,4 +1,4 @@
-# Awesome Development [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/kaniabi/awesome-dev)
+# Awesome Python [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome Python frameworks, libraries, software and resources.
 
@@ -67,7 +67,6 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
     - [Processes](#processes)
     - [Queue](#queue)
     - [Recommender Systems](#recommender-systems)
-    - [Regular Expressions](#regular-expressions)
     - [RESTful API](#restful-api)
     - [Robotics](#robotics)
     - [RPC Servers](#rpc-servers)
@@ -79,7 +78,6 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
     - [Static Site Generator](#static-site-generator)
     - [Tagging](#tagging)
     - [Template Engine](#template-engine)
-    - [Terminal](#terminal)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
     - [Third-party APIs](#third-party-apis)
@@ -516,6 +514,8 @@ Code Formatters
     * [SQLAlchemy](https://www.sqlalchemy.org/) - The Python SQL Toolkit and Object Relational Mapper.
         * [awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy)
 * NoSQL Databases
+    * [Awesome Python Models](https://github.com/grundic/awesome-python-models) (CHECK)
+
 
 ## Package Management
 
@@ -555,10 +555,6 @@ Code Formatters
 
 *Libraries for building recommender systems.*
 
-
-## Regular Expressions
-
-* [Pythex](https://pythex.org/) - An online tool for testing regular expressions.
 
 ## RESTful API
 
@@ -620,6 +616,7 @@ Code Formatters
 * Markdown
 * YAML
     * [PyYAML](http://pyyaml.org/) - YAML implementations for Python.
+    * [ruamel-yaml]
 * CSV
 * Archive
 
@@ -639,11 +636,6 @@ Code Formatters
 
 * [Jinja2](https://github.com/pallets/jinja) - A modern and designer friendly templating language.
 
-## Terminal
-
-* [Hyper](https://hyper.is/) - A multiplatform terminal build with Web technologies. Very easy to configure.
-* [Zsh](https://www.zsh.org/) - My shell of choice.
-    * [Oh-My-Zsh](https://ohmyz.sh/) - A lot of plugins for ZSH.
 
 ## Testing
 
@@ -651,6 +643,9 @@ Code Formatters
 
 * Testing Frameworks
     * [pytest](https://docs.pytest.org/en/latest/) - A mature full-featured Python testing tool.
+      * [pytest-mock]
+      * [pytest-cov]
+      * [pytest-raises]
     * [unittest](https://docs.python.org/3/library/unittest.html) - (Python standard library) Unit testing framework.
 * Test Runners
     * [tox](https://tox.readthedocs.io/en/latest/) - Auto builds and tests distributions in multiple Python versions
@@ -665,7 +660,8 @@ Code Formatters
     * [coverage](https://pypi.python.org/pypi/coverage) - Code coverage measurement.
 * Fake Data
 * Error Handler
-
+* Rest API
+    * [tavern](https://taverntesting.github.io/) - Tool to test Rest APIs.
 
 ## Text Processing
 
@@ -728,7 +724,8 @@ Code Formatters
     * [awesome-django](https://github.com/shahraizali/awesome-django)
 * [Flask](http://flask.pocoo.org/) - A microframework for Python.
     * [awesome-flask](https://github.com/humiaozuzu/awesome-flask)
-* [Sanic](https://github.com/channelcat/sanic) - Web server that's written to go fast.
+    * [connexion](https://connexion.readthedocs.io/en/latest/index.html) - Integrates OpenAPI with Flask.
+* [Sanic](https://github.com/channelcat/sanic) - Web server framework using async.
 * [Tornado](http://www.tornadoweb.org/en/latest/) - A Web framework and asynchronous networking library.
 
 
