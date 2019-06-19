@@ -647,6 +647,7 @@ Code Formatters
       * [pytest-cov]
       * [pytest-raises]
     * [unittest](https://docs.python.org/3/library/unittest.html) - (Python standard library) Unit testing framework.
+    * [testfixtures](https://testfixtures.readthedocs.io) - Super usefull LogCapture and OutputCapture context managers.Ad
 * Test Runners
     * [tox](https://tox.readthedocs.io/en/latest/) - Auto builds and tests distributions in multiple Python versions
 * GUI / Web Testing
