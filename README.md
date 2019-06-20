@@ -169,7 +169,8 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
     * [flake8](https://pypi.python.org/pypi/flake8) - A wrapper around `pycodestyle`, `pyflakes` and McCabe.
     * [pylint](https://www.pylint.org/) - A fully customizable source code analyzer.
     * [pylama](https://github.com/klen/pylama) - A code audit tool for Python and JavaScript.
-Code Formatters
+    * [pydocstyle](https://github.com/pycqa/pydocstyle) - Nice tool to check for docstrings formating.
+* Code Formatters
     * [black](https://github.com/ambv/black) (CHEKC) - The uncompromising Python code formatter.
     * [yapf](https://github.com/google/yapf) (CHEKC) - Yet another Python code formatter from Google.
 * Static Type Checkers
