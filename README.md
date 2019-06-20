@@ -42,6 +42,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
     - [Foreign Function Interface](#foreign-function-interface)
     - [Forms](#forms)
     - [Functional Programming](#functional-programming)
+    - [Git](#git)
     - [Game Development](#game-development)
     - [Geolocation](#geolocation)
     - [GUI](#gui)
@@ -324,6 +325,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 
 * [youtube-dl](https://rg3.github.io/youtube-dl/) - A small command-line program to download videos from YouTube.
 
+
 ## E-commerce
 
 *Frameworks and libraries for e-commerce and payments.*
@@ -338,6 +340,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 * Visual Studio Code
 * IDE
     * [PyCharm](https://www.jetbrains.com/pycharm/) - Commercial Python IDE by JetBrains. Has free community edition available.
+
 
 ## Email
 
@@ -354,6 +357,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 * [virtualenv](https://pypi.python.org/pypi/virtualenv) - A tool to create isolated Python environments.
 * [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/)
 
+
 ## Files
 
 *Libraries for file manipulation and MIME type detection.*
@@ -362,6 +366,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 * [pathlib](https://docs.python.org/3/library/pathlib.html) - (Python standard library) An cross-platform, object-oriented path library.
 * [Unipath](https://github.com/mikeorr/Unipath) - An object-oriented approach to file/directory operations.
 * [watchdog](https://github.com/gorakhargosh/watchdog) - API and shell utilities to monitor file system events.
+
 
 ## Foreign Function Interface
 
@@ -378,6 +383,11 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 ## Functional Programming
 
 *Functional Programming with Python.*
+
+
+## Git
+
+* [pre-commit](https://pre-commit.com/) - A framework for managing and maintaining multi-language pre-commit hooks.
 
 
 ## GUI
