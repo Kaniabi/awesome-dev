@@ -317,12 +317,15 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 
 * [sphinx](https://github.com/sphinx-doc/sphinx/) - Python Documentation generator.
 * [pycco](https://github.com/pycco-docs/pycco) - The literate-programming-style documentation generator.
+* [byexample](https://byexamples.github.io/byexample/) - "a literate programming engine where you mix ordinary text and snippets of code in the same file"
 
 
 ## Downloader
 
-*Libraries for downloading.*
+*Downloading stuff.*
 
+* [wget](https://www.gnu.org/software/wget/)
+* [curl](https://curl.haxx.se/)
 * [youtube-dl](https://rg3.github.io/youtube-dl/) - A small command-line program to download videos from YouTube.
 
 
@@ -674,6 +677,8 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 * Error Handler
 * Rest API
     * [tavern](https://taverntesting.github.io/) - Tool to test Rest APIs.
+* Testing Sites
+    * [localtest.me](http://readme.localtest.me/) - This site points to your local host (127.0.0.1) and its very usefull for testing applications locally
 
 ## Text Processing
 
