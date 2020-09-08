@@ -128,6 +128,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 
 * OAuth
     * [django-allauth](https://github.com/pennersr/django-allauth) - Authentication app for Django that "just works."
+    * [django-social-auth]
 * JWT
     * [pyjwt](https://github.com/jpadilla/pyjwt) - JSON Web Token implementation in Python.
     * [python-jose](https://github.com/mpdavis/python-jose/) - A JOSE implementation in Python.
@@ -190,6 +191,9 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 * CLI Enhancements
     * [httpie](https://github.com/jakubroztocil/httpie) (CHECK) - A command line HTTP client, a user-friendly cURL replacement.
     * [saws](https://github.com/donnemartin/saws) (CHECK) - A Supercharged [aws-cli](https://github.com/aws/aws-cli).
+
+* [screenfetch](https://github.com/KittyKatt/screenFetch) - Fetches system/theme information in terminal for Linux desktop screenshots.
+
 
 ## Compatibility
 
@@ -290,10 +294,20 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 *Software and libraries for DevOps.*
 
 * [ansible](https://github.com/ansible/ansible) - A radically simple IT automation platform.
-* [docker-compose](https://docs.docker.com/compose/) - Fast, isolated development environments using [Docker](https://www.docker.com/).
 * [fabric](https://github.com/fabric/fabric) - A simple, Pythonic tool for remote execution and deployment.
 * [supervisor](https://github.com/Supervisor/supervisor) - Supervisor process control system for UNIX.
+* [terraform](https://www.terraform.io/) - Create (AWS) infrastructure from code.
+  * [Atlantis](https://www.runatlantis.io/) - "Terraform Pull Request Automatiion."
 
+## Containers
+
+* [docker](https://docker.io/) - 
+* [Docker Hub](https://hub.docker) - 
+* [docker-compose](https://docs.docker.com/compose/) - Fast, isolated development environments using [Docker](https://www.docker.com/).
+* [podman](https://podman.io/) - " Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System."
+  It seems that CentOS 8 replaced docker with podman. This is a curious alternative for docker client.
+  REFERENCE: https://youtu.be/N0hSn5EwW8w
+* [cri-o](https://cri-o.io/) - "Lightweight container runtime for Kubernetes"
 
 ## Distributed Computing
 
@@ -679,6 +693,7 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
     * [tavern](https://taverntesting.github.io/) - Tool to test Rest APIs.
 * Testing Sites
     * [localtest.me](http://readme.localtest.me/) - This site points to your local host (127.0.0.1) and its very usefull for testing applications locally
+    * [ngrok](https://ngrok.com/) - One command for an instant, secure URL to your localhost server through any NAT or firewall. 
 
 ## Text Processing
 
@@ -755,6 +770,8 @@ Cloned from the original [awesome-python](https://github.com/vinta/awesome-pytho
 
 Online tools and APIs to simplify development.
 
+* [gitignore.io](http://gitignore.io/) - "Create useful .gitignore files for your project" 
+
 ## Continuous Integration
 
 *See: [awesome-CIandCD](https://github.com/ciandcd/awesome-ciandcd#online-build-system).*
@@ -785,3 +802,25 @@ Where to discover new Python libraries.
 
 * [Pycoder's Weekly](http://pycoders.com/)
 * [Python Weekly](http://www.pythonweekly.com/)
+
+
+# Unclassified
+
+### [url2env](https://pypi.org/project/url2env/)
+
+A small utility to genereate Postgresql environment variables from a database url.
+
+```
+$ url2env psql://joebloggs:secret@db.example.com:4433/blog
+PGUSER=joebloggs
+PGPASSWORD=secret
+PGHOST=db.example.com
+PGPORT=4433
+PGDATABASE=blog
+```
+
+Using on docker entry-point:
+
+```bash
+eval `url2env $DATABASE_URL`
+```
